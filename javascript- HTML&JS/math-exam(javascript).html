@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Developing Software: An Introduciton Assessment 2018: !!!!!!!!PUT YOUR NAME HERE!!!!!! --</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+<style>
+body{font-family: 'Open Sans Condensed', sans-serif;margin:0px;padding:0px;}
+h1{background-color:#6699FF;margin:0px;}
+#len1{position:relative;top:-130px;left:120px;}
+#len2{position:relative;top:-65px;left:180px;}
+#hypo{position:relative;top:-175px;left:240px;}
+#output{background-color:rgb(228, 229, 233);height:20px;}
+p{margin-left:20px;}
+button{padding:25px;border:0px;cursor:pointer;}
+#myCanvas{margin-top:-50px;margin-bottom:-50px;}
+#info{background-color:rgb(228, 229, 233);padding:10px 0px;font-size:120%;}
+
+</style>
+</head>
+<body>
+<h1>Basic Maths</h1>
+
+<div id="info"><p>The longest side of a right-angled triangle, which is opposite the right angle, is called the hypotenuse.</p>
+<p>In our example <strong>ls1</strong> is the hypotenuse.</p>
+<p>A triangle is a right angled triangle if:</p>  <p>ss1<sup>2</sup> &#43; ss2<sup>2</sup> &#61; ls1<sup>2</sup> </p>
+
+<p>For example ss1<sup>2</sup> is equivalent to ss1 &#215; ss1 </p>
+
+</div>
+<div id="wrapper">
+
+<p><canvas id="myCanvas" width="500px" height="350px"></canvas></p>
+
+ <div id="len1">ss1</div> <div id="len2">ss2</div><div id="hypo">ls1</div>
+	ss1 <input type="number" id="ss1" placeholder="Enter a value">	
+	ss1 <input type="number" id="ss2" placeholder="Enter a value">
+	ls1 <input type="number" id="ls1" placeholder="Enter a value">
+
+	<button id="calc">Am I a right angled triangle?</button>
+
+	<p><div id="output"></div></p>
+	
+	
+	<h1>Quiz time</h1><br>
+
+	<button id="quiz">Play quiz</button>
+		
+</div> <!--End of div wrapper-->
+
+
+
+
+
+<script src="script.js"></script>
+	
+	</body>
+
+
+</html>
